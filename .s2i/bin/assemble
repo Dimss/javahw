@@ -1,0 +1,4 @@
+su default
+echo $pwd
+ant -f /tmp/src/build.xml
+cp /tmp/src/dist/DiscountApp.jar ./
